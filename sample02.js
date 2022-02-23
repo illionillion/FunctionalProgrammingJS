@@ -11,3 +11,4 @@ const reverse2 = ([x,...rest]) => x === undefined ? [] : [...reverse2(rest),x]
 
 console.log(reverse([1,2,3,4,5]))
 console.log(reverse2([1,2,3,4,5]))
+ni 
